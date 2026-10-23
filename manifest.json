@@ -1,0 +1,76 @@
+{
+  "packs": {
+    "ar": {
+      "file": "packs/ar-2.pack",
+      "quotes": 3000,
+      "sha256": "0d7ef9e65caa4802a1283df27a208c67e314e488fafd30c80f718b5393a5a511",
+      "size": 83733,
+      "source": "5ea6832e72c1b6c93935d7da14bd1906a9508871c18f76b07ba4b19676787dc0",
+      "version": 2
+    },
+    "de": {
+      "file": "packs/de-2.pack",
+      "quotes": 3000,
+      "sha256": "f72e7adec79a356d658df502488cdec85e7d87c6f43547f26382f67c22ddc868",
+      "size": 81040,
+      "source": "f1046049f4585fff18119cb805120a5c68a497915552c1f9270717082b619e51",
+      "version": 2
+    },
+    "en": {
+      "file": "packs/en-2.pack",
+      "quotes": 3000,
+      "sha256": "6b7d177fe1f1b9be8c309784d6c2a5d09430f932011b81e9f23531425ec07ba1",
+      "size": 81728,
+      "source": "ccf87a913b21b803d8bd2656821611f184128bd93bd77b9dcbb894bed2f4e28d",
+      "version": 2
+    },
+    "fr": {
+      "file": "packs/fr-2.pack",
+      "quotes": 3000,
+      "sha256": "4d9a15a750304cf50bc3651d10458e46c774afc1921e11310d7f370eba7d6d85",
+      "size": 78754,
+      "source": "5ed056c458865a6bf84a1ab55a7d81ade2a76b57b9a3808cb7851657222c4fd5",
+      "version": 2
+    },
+    "hi": {
+      "file": "packs/hi-2.pack",
+      "quotes": 3000,
+      "sha256": "c3be7975797dc7546191071f2d029e8966e7c457fb5fc89d406c613b891f252c",
+      "size": 98781,
+      "source": "2ebc0b7b9506d4f1a7f0e7cda113271d7ba2ae7995a80ce55b546acf3b5b1c20",
+      "version": 2
+    },
+    "ja": {
+      "file": "packs/ja-2.pack",
+      "quotes": 3000,
+      "sha256": "b615010a6390516eb38fc9d409acf21960c7a5bae5b5ec01d9262d7a6a290645",
+      "size": 76136,
+      "source": "8b3130d1dfd9b856a28321fff921c62f880a7b148f885f2ae5afb5ee52abfcd1",
+      "version": 2
+    },
+    "ko": {
+      "file": "packs/ko-2.pack",
+      "quotes": 3000,
+      "sha256": "7512369d0a2b10820d12f50448823ce533d781689263c4efa9ba971118c5b0a2",
+      "size": 80713,
+      "source": "d5b4040a1f6754d003224a30012315be0fdd14c87dea08b9e539bd007c8dfc19",
+      "version": 2
+    },
+    "ta": {
+      "file": "packs/ta-2.pack",
+      "quotes": 3000,
+      "sha256": "22ae2ccfe80823a51f7959ee206cd375b69048a9092f04625e4d3787f28fd61b",
+      "size": 96509,
+      "source": "959c31fb3fafdf10f43a7f3164cc52c6dd8c9e08534d1762d8d7704a0c6a6945",
+      "version": 2
+    },
+    "zh": {
+      "file": "packs/zh-2.pack",
+      "quotes": 3000,
+      "sha256": "3d027524bd2177db533341ec5313f4569680335ae9b4de810f4d12525301d21a",
+      "size": 78625,
+      "source": "a32b57a4f7e707bc8068a1e4d92aa1046d85e4b76e25b9b2dfff7e862f1642ee",
+      "version": 2
+    }
+  }
+}

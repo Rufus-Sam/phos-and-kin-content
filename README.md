@@ -1,20 +1,15 @@
-# Phos & Kin — Quote packs
+# Phos & Kin — language packs
 
-Original quotes for the Phos & Kin app, written natively for each language (not translated). © Sustain Digital.
+Quotes and greeting-card messages for the Phos & Kin app, written natively for each language. © Sustain Digital.
 
 | Path | What |
 |---|---|
-| `packs/<lang>/basic.json` | Basic Set (~1,000 quotes + greeting-card messages). Bundled into the app at build time via `tool/sync_content.sh` in the app repo, so it works offline from first launch. |
-| `packs/<lang>/additional.json` | Additional Set (~1,000 quotes). Downloaded only when a user taps **Settings → Get New Quotes**. Served at `https://rufus-sam.github.io/phos-and-kin-content/packs/<lang>/additional.json`. |
-| `quotes/v1.json` | Legacy English Additional Set used by app builds before multilingual support. Keep until those builds are gone. |
+| `manifest.json` | Each language's current pack: version, file, size, SHA-256. The app reads it when someone picks a language. |
+| `packs/<lang>-<version>.pack` | One encrypted pack per language (3,000 quotes and the card messages). English also ships inside the app; the others download once and then work offline. |
+| `packs/<lang>/additional.json`, `quotes/v1.json` | Only for app versions before 1.0.4 (their "Get New Quotes" button). Remove once those versions are gone. |
+
+Packs are built by `tool/build_packs.py` in the private app repo from its `content/<lang>.json` files. Don't edit them here.
 
 Languages: `en`, `hi`, `ta`, `zh` (Simplified), `ja`, `ko`, `ar`, `de`, `fr`.
 
-Format: `{"version": 1, "language": "hi", "set": "basic", "quotes": [{"text", "category", "author"?}], "greetings"?: {"birthday": [...], ...}}`
-- `category`: `motivation` | `courage` | `gratitude` | `calm` | `success`
-- `author` defaults to "Phos & Kin"
-- `greetings` keys: `birthday`, `anniversary`, `holiday`, `congratulations`, `thankYou`, `getWell`, `other`
-
-The app validates every file (size cap, known categories, duplicates removed). Keep paths and format stable; bump `version` for content updates.
-
-**Review status:** non-English packs were written by AI and still need native-speaker review before marketing.
+**Review status:** non-English text was written by AI and still needs native-speaker review before marketing.
